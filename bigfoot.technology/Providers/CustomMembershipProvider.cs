@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 
-namespace project1.Providers
+namespace bigfoot.technology.Providers
 {
     public class CustomMembershipProvider : MembershipProvider
     {

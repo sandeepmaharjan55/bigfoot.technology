@@ -1,5 +1,6 @@
 ﻿@model bigfoot.technology.ViewModels.RegisterViewModel
-
+@using System.Web.Optimization
+@Styles.Render("~/Content/login")
 
 
 
@@ -108,8 +109,6 @@
                                             </span>
                                         </div>
                                     </div>
-
-                                    
                                     <div class="form-group">
                                         @Html.LabelFor(model => model.Designation, htmlAttributes: new { @class = "control-label col-md-2" })
                                         <br />
