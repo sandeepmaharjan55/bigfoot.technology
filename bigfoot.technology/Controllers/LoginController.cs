@@ -50,6 +50,7 @@ namespace bigfoot.technology.Controllers
         {
             FormsAuthentication.SignOut();
             return Redirect("~/Login");
+
         }
     }
 }
