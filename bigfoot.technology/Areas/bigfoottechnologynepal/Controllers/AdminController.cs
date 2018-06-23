@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace bigfoot.technology.Areas.bigfoottechnologynepal.Controllers
 {
-    [Authorize(Roles ="Admin,User")]
+    [Authorize(Roles ="Admin")]
     public class AdminController:Controller
     {
     }

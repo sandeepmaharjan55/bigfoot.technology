@@ -20,28 +20,29 @@ namespace bigfoot.technology.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Index(LoginViewModel lvm,string ReturnUrl)
+        public ActionResult Index(LoginViewModel lvm, string ReturnUrl)
         {
             if (ModelState.IsValid)
             {
                 if (Membership.ValidateUser(lvm.UserName, lvm.Password))
                 {
                     FormsAuthentication.SetAuthCookie(lvm.UserName ,true);
+
                     if (ReturnUrl != null)
                     {
                         return Redirect(ReturnUrl);
                     }
-                    else if (ReturnUrl == null && lvm.UserName=="admin")
+                    else if (ReturnUrl == null && lvm.UserName == "admin")
                     { return Redirect("~/bigfoottechnologynepal/Dashboard"); }
                     else
-                    { 
+                    {
                         return Redirect("~/Home/Index");
+                    }
+
+
+
+
                 }
-
-
-
-
-            }
 
             }
             return View(lvm);

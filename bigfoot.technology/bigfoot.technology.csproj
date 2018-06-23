@@ -254,6 +254,8 @@
     <Content Include="fonts\ionicons.eot" />
     <Content Include="fonts\ionicons.ttf" />
     <Content Include="fonts\ionicons.woff" />
+    <Content Include="Areas\bigfoottechnologynepal\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\bigfoottechnologynepal\Views\Shared\_LoginPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -266,7 +268,6 @@
     <Folder Include="Areas\bigfoottechnologynepal\Models\" />
     <Folder Include="Areas\bigfoottechnologynepal\Views\Admin\" />
     <Folder Include="Areas\bigfoottechnologynepal\Views\Setting\" />
-    <Folder Include="Areas\bigfoottechnologynepal\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806220956265_UserInitial.resx">
