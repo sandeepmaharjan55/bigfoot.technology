@@ -206,10 +206,10 @@
     <Compile Include="Areas\bigfoottechnologynepal\bigfoottechnologynepalAreaRegistration.cs" />
     <Compile Include="Areas\bigfoottechnologynepal\Controllers\AdminController.cs" />
     <Compile Include="Areas\bigfoottechnologynepal\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\bigfoottechnologynepal\Controllers\LoginController.cs" />
+    <Compile Include="Areas\bigfoottechnologynepal\Controllers\RegisterController.cs" />
     <Compile Include="Areas\bigfoottechnologynepal\Controllers\SettingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -241,8 +241,6 @@
     <Content Include="Areas\bigfoottechnologynepal\Views\Skill\Edit.cshtml" />
     <Content Include="Areas\bigfoottechnologynepal\Views\Skill\Index.cshtml" />
     <Content Include="Areas\bigfoottechnologynepal\Views\_ViewStart.cshtml" />
-    <Content Include="Views\Login\Index.cshtml" />
-    <Content Include="Views\Register\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
@@ -256,6 +254,8 @@
     <Content Include="fonts\ionicons.woff" />
     <Content Include="Areas\bigfoottechnologynepal\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\bigfoottechnologynepal\Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Areas\bigfoottechnologynepal\Views\Register\Index.cshtml" />
+    <Content Include="Areas\bigfoottechnologynepal\Views\Login\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace bigfoot.technology.Controllers
+namespace bigfoot.technology.Areas.bigfoottechnologynepal.Controllers
 {
     public class RegisterController : Controller
     {

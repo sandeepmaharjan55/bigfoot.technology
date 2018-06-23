@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace bigfoot.technology.Controllers
+namespace bigfoot.technology.Areas.bigfoottechnologynepal.Controllers
 {
     [AllowAnonymous]
     public class LoginController : Controller
@@ -50,7 +50,7 @@ namespace bigfoot.technology.Controllers
         public ActionResult Logout()
         {
             FormsAuthentication.SignOut();
-            return Redirect("~/Login");
+            return Redirect("~/bigfoottechnologynepal/Login");
         }
     }
 }
